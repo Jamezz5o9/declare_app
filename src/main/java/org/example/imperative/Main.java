@@ -1,10 +1,10 @@
-package org.example;
+package org.example.imperative;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-import static org.example.Main.Gender.*;
+import static org.example.imperative.Main.Gender.*;
 
 public class Main {
     public static void main(String[] args) {

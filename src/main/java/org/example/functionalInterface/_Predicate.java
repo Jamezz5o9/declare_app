@@ -9,7 +9,7 @@ public class _Predicate {
         System.out.println(isPhoneNumberValid("90876645345"));
         System.out.println(isPhoneNumberValid("908766453421"));
         System.out.println(isPhoneValid.test("888888"));
-        isPhoneValid.test()
+        System.out.println(isPhoneValid.test("99877777777"));
 
     }
 
