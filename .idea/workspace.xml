@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d59ae018-0766-4ddd-a477-7d99d5955024" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/finalsection/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/finalsection/Lambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/finalsection/Lambdas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,33 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.finalsection.Main">
+  <component name="RunManager" selected="Application.Lambdas">
+    <configuration name="Callbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.finalsection.Callbacks" />
+      <module name="functionalProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.finalsection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.finalsection.Lambdas" />
+      <module name="functionalProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.finalsection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.optional.Main" />
       <module name="functionalProgramming" />
@@ -71,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Supplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.functionalInterface._Supplier" />
-      <module name="functionalProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.functionalInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="org.example.combinatorpattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.combinatorpattern.Main" />
       <module name="functionalProgramming" />
@@ -97,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.finalsection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.finalsection.Main" />
-      <module name="functionalProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.finalsection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.finalsection.Main" />
+        <item itemvalue="Application.Lambdas" />
+        <item itemvalue="Application.Callbacks" />
         <item itemvalue="Application.org.example.combinatorpattern.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application._Stream" />
-        <item itemvalue="Application._Supplier" />
       </list>
     </recent_temporary>
   </component>
@@ -129,11 +129,27 @@
       <option name="presentableId" value="Default" />
       <updated>1682931357642</updated>
       <workItem from="1682931363975" duration="21986000" />
-      <workItem from="1683110814772" duration="11289000" />
+      <workItem from="1683110814772" duration="14479000" />
+      <workItem from="1683127288109" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/finalsection/Lambdas.java</url>
+          <line>6</line>
+          <properties class="org.example.finalsection.Lambdas" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

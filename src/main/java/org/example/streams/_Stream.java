@@ -17,10 +17,10 @@ public class _Stream {
                 new Person("Dayo", MALE)
         );
 
-//        people.stream()
-//                .map(person -> person.gender)
-//                    .collect(Collectors.toSet())
-//                    .forEach(System.out::println);
+        people.stream()
+                .map(person -> person.gender)
+                    .collect(Collectors.toSet())
+                    .forEach(System.out::println);
 
 
 //        people.stream()
