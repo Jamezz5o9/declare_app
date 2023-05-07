@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d59ae018-0766-4ddd-a477-7d99d5955024" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/beans/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/beans/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/beans/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javastreams/GettingStarted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/finalsection/Lambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/finalsection/Lambdas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mockdata/MockData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mockdata/MockData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +49,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lambdas">
-    <configuration name="Callbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.finalsection.Callbacks" />
+  <component name="RunManager" selected="TestNG.GettingStarted.declarativeApproach">
+    <configuration name="GettingStarted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.javastreams.GettingStarted" />
       <module name="functionalProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.finalsection.*" />
+          <option name="PATTERN" value="org.example.javastreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,52 +76,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.optional.Main" />
+    <configuration name="GettingStarted.declarativeApproach" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="functionalProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.optional.*" />
+          <option name="PATTERN" value="org.example.javastreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.javastreams" />
+      <option name="MAIN_CLASS_NAME" value="org.example.javastreams.GettingStarted" />
+      <option name="METHOD_NAME" value="declarativeApproach" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams._Stream" />
+    <configuration name="GettingStarted.imperativeProgramming (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="functionalProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="PATTERN" value="org.example.javastreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.javastreams" />
+      <option name="MAIN_CLASS_NAME" value="org.example.javastreams.GettingStarted" />
+      <option name="METHOD_NAME" value="imperativeProgramming" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.combinatorpattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.combinatorpattern.Main" />
+    <configuration name="GettingStarted.imperativeProgramming" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="functionalProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.combinatorpattern.*" />
+          <option name="PATTERN" value="org.example.javastreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.javastreams" />
+      <option name="MAIN_CLASS_NAME" value="org.example.javastreams.GettingStarted" />
+      <option name="METHOD_NAME" value="imperativeProgramming" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GettingStarted.declarativeApproach" />
+        <item itemvalue="TestNG.GettingStarted.imperativeProgramming (1)" />
+        <item itemvalue="TestNG.GettingStarted.imperativeProgramming" />
+        <item itemvalue="Application.GettingStarted" />
         <item itemvalue="Application.Lambdas" />
-        <item itemvalue="Application.Callbacks" />
-        <item itemvalue="Application.org.example.combinatorpattern.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application._Stream" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +151,8 @@
       <workItem from="1682931363975" duration="21986000" />
       <workItem from="1683110814772" duration="14479000" />
       <workItem from="1683127288109" duration="545000" />
+      <workItem from="1683197508626" duration="8279000" />
+      <workItem from="1683265893909" duration="683000" />
     </task>
     <servers />
   </component>
@@ -140,14 +162,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/finalsection/Lambdas.java</url>
-          <line>6</line>
-          <properties class="org.example.finalsection.Lambdas" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/javastreams/GettingStarted.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
